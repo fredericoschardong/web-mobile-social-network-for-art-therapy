@@ -1,0 +1,4 @@
+<?php
+$url = '/' . $this->params['controller'] . '/delete/' . $id;
+echo $this->Html->image('delete.png', array('alt'=>'Remove', 'title'=>'Remove', 'url'=> "{$url}", 'onclick' => "return confirm('Are you sure?')"));
+?>

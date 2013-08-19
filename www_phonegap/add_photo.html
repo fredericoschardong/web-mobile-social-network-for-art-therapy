@@ -1,0 +1,195 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.css" />
+        
+        <script type="text/javascript" src="cordova-2.5.0.js"></script>
+    	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    	<script type="text/javascript" src="js/jquery.mobile-1.2.0.min.js"></script>
+    	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    	<script type="text/javascript" src="js/jquery-blockui.js"></script>
+    	<script type="text/javascript" src="js/index.js"></script>
+    	
+        <title>Cool App</title>
+    </head>
+    <body>
+        <div data-role="page" id="page1">
+            <div data-role="header" data-theme="a" data-position="fixed">
+		        <h3>Cool App</h3>
+		        <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+    		</div><!-- /header -->
+    		
+            <div data-role="content" id="content">
+                <a href="#" data-role="button" id="open_camera_button">Capture a photo with camera</a>
+                <a href="#" data-role="button" id="open_lib_button">Open Photo Library</a>
+            </div>
+           
+           
+            <div id="pic" data-role="content" style="display: none;">
+                <label for="textarea1">
+                    Description
+                </label>
+                
+                <form id="form">
+                	<textarea name="description" id="description" placeholder="" style="height: 7em;" class="required"></textarea>
+                </form>
+                
+                <a data-role="button" id="submit" href="">
+		            Submit
+		        </a>
+            </div>
+            
+            
+            <div data-role="panel" data-position-fixed="true" data-theme="a" id="nav-panel">
+		        <ul data-role="listview" data-theme="a" class="nav-search">
+		            <li><a onClick="window.location.href = 'home.html';">Home</a></li>
+		            <li><a onClick="window.location.href = 'add_photo.html';">Add photo</a></li>
+		            <li><a href="#">My photos</a></li>
+		            <li><a href="#">Profile</a></li>
+		            <li><a href="#">My group</a></li>
+		            <li><a href="#">Account</a></li>
+		            <li><a onClick="window.location.href = 'login.html';">Logout</a></li>
+		        </ul>
+	    	</div>
+        </div>
+        <script>
+        	var image_dir;
+        	
+        	//Retrieves the underlying HTML DOM element from the event fired on jQuery element 
+			function getTargetId(event, tagName) {
+			    var target = (event.target.tagName == tagName)
+			                    ? event.target
+			                    : $(event.target).closest(tagName)[0]
+			    return target.id;
+			}
+			
+			function onCapture(e) {
+			    var callerId = getTargetId(e, "a");
+			    var sourceType;
+			    
+			    switch (callerId) {
+			        case "open_camera_button":
+			            sourceType = Camera.PictureSourceType.CAMERA;
+			            break;
+			        case "open_lib_button":
+			            sourceType = Camera.PictureSourceType.PHOTOLIBRARY;
+			            break;
+			        //case "open_alb_button":
+			        //    sourceType = Camera.PictureSourceType.SAVEDPHOTOALBUM;
+			        //    break;
+			        default:
+			            return;
+			    }
+			    
+			    navigator.camera.getPicture(function(imageData){
+			    	image_dir = imageData;
+			    	$("#pic").show();
+			        //$("#pic img").attr('src', imageData);
+			        console.log('img ' + imageData);
+			    }, function(){
+			    	console.log("jquery camera error!");
+			    }, {	
+					sourceType : sourceType,
+					allowEdit: true,
+					quality: 70, 
+                    destinationType: navigator.camera.DestinationType.FILE_URI,
+                    correctOrientation: true,
+                    targetWidth: 1024
+				  });
+			}
+			
+			function win(r) {
+	            if(r.response == 'ok'){
+	            	$.ajax({
+							url: "http://" + window.localStorage.getItem("server") +"/users/logout",
+							type: "POST"
+						}).always(function(){
+							$.ajax({
+								url: "http://" + window.localStorage.getItem("server") +"/users/login",
+								type: "POST",
+								data: { 'data[User][username]': window.localStorage.getItem("username"), 
+										'data[User][password]': window.localStorage.getItem("password"),
+										mobile: 'true'
+									  }
+							}).done(function(msg) {
+								if(msg != 'ok'){
+									alert("Some error has occurred, are you connected to the internet?");
+								}
+								else{
+									window.location.href = "home.html";
+								}
+							}).fail(function(msg){
+								alert("Some error has occurred, are you connected to the internet?");
+								console.log(msg);
+								console.log(msg.statusCode());
+							});
+			        	});
+	            }
+	            else{
+	            	console.log(var_dump(r));
+	            	alert("An error has occurred");
+	            }
+	        }
+	
+	        function fail(error) {
+	            alert("An error has occurred: Code = " + error.code);
+	            console.log("upload error source " + error.source); 
+	            console.log("upload error target " + error.target);
+	            console.log(error.response);
+	        }
+				
+       		function onDeviceReady(){
+       			console.log("jquery ready");
+       			
+       			$("#open_camera_button").bind("click", onCapture);
+    			$("#open_lib_button").bind("click", onCapture);
+    			
+    			$("#submit").click(function(){
+    				if($("form").valid()){
+	    				$.blockUI({ message: '<img src="css/images/ajax-loader.gif" />' });
+	    				
+	    				var onSuccess = function(position) {
+	    				    alert('Latitude: '          + position.coords.latitude          + '\n' +
+	    				          'Longitude: '         + position.coords.longitude         + '\n' +
+	    				          'Altitude: '          + position.coords.altitude          + '\n' +
+	    				          'Accuracy: '          + position.coords.accuracy          + '\n' +
+	    				          'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
+	    				          'Heading: '           + position.coords.heading           + '\n' +
+	    				          'Speed: '             + position.coords.speed             + '\n' +
+	    				          'Timestamp: '         + position.timestamp                + '\n');
+	    				    
+			    				    var options = new FileUploadOptions();
+						            options.fileKey="file";
+						            options.fileName=image_dir.substr(image_dir.lastIndexOf('/')+1);
+						            options.mimeType="image/jpeg";
+							
+						            var params = {};
+						            params.description = $("#description").val();
+						            params.mobile = 'true';
+						            params.username = window.localStorage.getItem("username");
+									params.password = window.localStorage.getItem("password");
+									params.lat = position.coords.latitude;
+									params.lng = position.coords.longitude;
+									params.acc = position.coords.accuracy;
+						
+						            options.params = params;
+						
+						            var ft = new FileTransfer();
+						            ft.upload(image_dir, encodeURI("http://" + window.localStorage.getItem("server") +"/images/add"), win, fail, options);
+	    				};
+
+	    				function onError(error) {
+	    				    alert('There was an error trying to obtain your position\nError code: '    + error.code    + '\n' +
+	    				          'Error message: ' + error.message + '\n');
+	    				}
+
+	    				navigator.geolocation.getCurrentPosition(onSuccess, onError);
+		            }
+    			});
+			}
+        </script>
+    </body>
+</html>

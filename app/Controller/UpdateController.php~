@@ -1,0 +1,12 @@
+<?php
+
+class UpdateController extends AppController {
+	var $uses = array('Users');
+
+    public function index() {
+
+		$this->render('index');
+    }
+}
+
+?>

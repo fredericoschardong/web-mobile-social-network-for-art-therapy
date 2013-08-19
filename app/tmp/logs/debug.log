@@ -1,0 +1,1987 @@
+2013-03-10 21:40:57 Notice: Strict (2048): Declaration of Ex::logQuery() should be compatible with DboSource::logQuery($sql, $params = Array) in [/var/www/lib/Cake/Model/Datasource/Database/Ex.php, line 9]
+Trace:
+include - CORE/Cake/Model/Datasource/Database/Ex.php, line 9
+App::load() - CORE/Cake/Core/App.php, line 540
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ConnectionManager::loadDataSource() - CORE/Cake/Model/ConnectionManager.php, line 173
+ConnectionManager::getDataSource() - CORE/Cake/Model/ConnectionManager.php, line 97
+Model::setDataSource() - CORE/Cake/Model/Model.php, line 3195
+Model::setSource() - CORE/Cake/Model/Model.php, line 1107
+Model::getDataSource() - CORE/Cake/Model/Model.php, line 3217
+Model::find() - CORE/Cake/Model/Model.php, line 2674
+PagesController::index() - APP/Controller/PagesController.php, line 16
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:51:25 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:51:25 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:52:38 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:52:38 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:53:15 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:53:15 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:55:02 Notice: Notice (8): Undefined variable: user in [/var/www/app/View/Images/index.ctp, line 15]
+Trace:
+include - APP/View/Images/index.ctp, line 15
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:55:02 Notice: Notice (8): Undefined variable: username in [/var/www/app/View/Images/index.ctp, line 15]
+Trace:
+include - APP/View/Images/index.ctp, line 15
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:55:04 Notice: Notice (8): Undefined variable: user in [/var/www/app/View/Images/index.ctp, line 15]
+Trace:
+include - APP/View/Images/index.ctp, line 15
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:55:04 Notice: Notice (8): Undefined variable: username in [/var/www/app/View/Images/index.ctp, line 15]
+Trace:
+include - APP/View/Images/index.ctp, line 15
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:55:06 Notice: Notice (8): Undefined variable: user in [/var/www/app/View/Images/index.ctp, line 15]
+Trace:
+include - APP/View/Images/index.ctp, line 15
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:55:06 Notice: Notice (8): Undefined variable: username in [/var/www/app/View/Images/index.ctp, line 15]
+Trace:
+include - APP/View/Images/index.ctp, line 15
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:55:17 Notice: Notice (8): Undefined variable: user in [/var/www/app/View/Images/index.ctp, line 15]
+Trace:
+include - APP/View/Images/index.ctp, line 15
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:55:17 Notice: Notice (8): Undefined variable: username in [/var/www/app/View/Images/index.ctp, line 15]
+Trace:
+include - APP/View/Images/index.ctp, line 15
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:55:21 Notice: Notice (8): Undefined variable: user in [/var/www/app/View/Images/index.ctp, line 15]
+Trace:
+include - APP/View/Images/index.ctp, line 15
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:55:21 Notice: Notice (8): Undefined variable: username in [/var/www/app/View/Images/index.ctp, line 15]
+Trace:
+include - APP/View/Images/index.ctp, line 15
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:55:28 Notice: Notice (8): Undefined variable: user in [/var/www/app/View/Images/index.ctp, line 15]
+Trace:
+include - APP/View/Images/index.ctp, line 15
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-10 21:55:28 Notice: Notice (8): Undefined variable: username in [/var/www/app/View/Images/index.ctp, line 15]
+Trace:
+include - APP/View/Images/index.ctp, line 15
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 14:48:58 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 14:48:58 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:19:43 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:19:55 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:19:55 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 35]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:20:43 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:20:43 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 35]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:21:31 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:22:42 Notice: Notice (8): Undefined variable: user in [/var/www/app/View/Images/index.ctp, line 15]
+Trace:
+include - APP/View/Images/index.ctp, line 15
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:22:42 Notice: Notice (8): Undefined variable: username in [/var/www/app/View/Images/index.ctp, line 15]
+Trace:
+include - APP/View/Images/index.ctp, line 15
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:22:56 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:22:56 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:23:01 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:23:53 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:23:53 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:25:19 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:25:19 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:29:21 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:29:21 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:32:15 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:32:15 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:33:00 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:33:00 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:35:50 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:35:50 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:37:47 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:37:47 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:38:11 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:38:11 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:38:38 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:38:39 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:44:36 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:44:36 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:45:14 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:45:14 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:46:54 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:46:54 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:49:22 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:49:22 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:50:58 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:50:58 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 15:56:45 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:01:07 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:01:07 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:02:03 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:02:03 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:03:43 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:03:43 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:04:38 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:04:38 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:07:04 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:07:04 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:08:20 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:08:24 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:10:56 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:10:56 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:13:18 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:13:18 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:13:42 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:13:42 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:18:53 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:19:10 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:28:22 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:28:25 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:28:28 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:28:42 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:29:16 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:29:41 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:29:42 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:29:42 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:29:42 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:29:43 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:29:43 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:29:43 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:29:49 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:29:49 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:30:41 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:30:41 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:32:18 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:32:56 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:33:05 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:33:05 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:34:36 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:34:38 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:34:38 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:37:08 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:37:08 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:39:28 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:39:28 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:44:51 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:44:52 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:45:02 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:45:02 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:46:39 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:46:43 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:46:45 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:46:45 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 35]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:47:24 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:47:34 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 42]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:47:34 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:47:51 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:47:51 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:49:03 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:49:04 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:49:49 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:49:49 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:50:19 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:50:19 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:51:30 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:51:30 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:53:24 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:53:25 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:54:01 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:54:02 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:56:02 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:56:28 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:57:25 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:57:32 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:57:33 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:57:41 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 16:57:41 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:01:15 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:01:15 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:01:22 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:01:24 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:01:24 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:05:00 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:07:18 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:07:20 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:08:17 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:09:02 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:09:04 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:09:05 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:09:05 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:09:06 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:09:06 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:09:06 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:09:06 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:09:07 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:09:07 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:09:07 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:09:10 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:09:10 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 35]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:09:17 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:09:46 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:09:46 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:10:31 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:10:31 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:11:48 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:11:48 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:12:38 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:13:45 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:13:45 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:14:23 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:14:23 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:14:51 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:14:51 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:16:22 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:19:26 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:19:26 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:20:28 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:20:33 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:21:53 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:21:53 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:23:44 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:23:50 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:24:49 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:24:50 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:25:19 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 17:25:19 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 20:59:37 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 20:59:39 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 21:00:31 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 21:00:31 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 21:08:47 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 21:08:48 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 21:12:55 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 21:12:55 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 21:15:17 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 21:15:18 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 21:15:48 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 21:15:52 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 21:15:52 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 21:15:53 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 21:15:53 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 35]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 21:16:48 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 21:16:48 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 21:17:52 Notice: Notice (8): Undefined index: mobile in [/var/www/app/Controller/UsersController.php, line 52]
+Trace:
+UsersController::login() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2013-03-11 21:17:52 Notice: Notice (8): Undefined index: Users in [/var/www/app/Controller/UsersController.php, line 13]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 669
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 183
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+

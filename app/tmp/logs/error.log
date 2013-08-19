@@ -1,0 +1,67 @@
+2013-03-10 21:40:07 Error: Fatal Error (4): syntax error, unexpected ')', expecting '(' in [/var/www/lib/Cake/Model/Datasource/Database/Ex.php, line 11]
+2013-03-10 21:40:07 Error: [InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lib/Ca...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lib/Ca...', 11, Array)
+#2 /var/www/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lib/Ca...', 11, Array)
+#3 /var/www/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-10 21:40:46 Error: Fatal Error (4): syntax error, unexpected ')', expecting '(' in [/var/www/lib/Cake/Model/Datasource/Database/Ex.php, line 11]
+2013-03-10 21:40:46 Error: [InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lib/Ca...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lib/Ca...', 11, Array)
+#2 /var/www/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lib/Ca...', 11, Array)
+#3 /var/www/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-10 21:44:06 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/var/www/app/Controller/PagesController.php, line 16]
+2013-03-10 21:44:06 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/app/Co...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/app/Co...', 16, Array)
+#2 /var/www/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/app/Co...', 16, Array)
+#3 /var/www/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-10 21:45:37 Error: Fatal Error (4): syntax error, unexpected ')', expecting '(' in [/var/www/lib/Cake/Model/Datasource/Database/Ex.php, line 11]
+2013-03-10 21:45:37 Error: [FatalErrorException] syntax error, unexpected ')', expecting '('
+Request URL: /images/add
+Stack Trace:
+#0 /var/www/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lib/Ca...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lib/Ca...', 11, Array)
+#2 /var/www/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lib/Ca...', 11, Array)
+#3 /var/www/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-11 15:20:43 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts
+Stack Trace:
+#0 /var/www/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-11 15:21:32 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon-precomposed.pngController',
+  'plugin' => NULL,
+)
+Request URL: /apple-touch-icon-precomposed.png
+Stack Trace:
+#0 /var/www/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-11 15:21:32 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /apple-touch-icon.png
+Stack Trace:
+#0 /var/www/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

@@ -1,0 +1,46 @@
+<div class='section'>
+
+<?php 
+	$this->element('images');
+
+	if($notfound){
+		echo "We could not find the person you are looking for.";
+	}
+	else{
+		if(!$images){
+			echo "You have nothing tadsdao be shown, please add a photo";
+		}
+		else{
+			$last_date = 0;
+
+			$array = array();
+
+			foreach ($images as $i => $d){
+				if(!in_array($d['Images']['id'], $array)){ 
+					$last_date = content($d, $this, $last_date, false	);
+					$array[] = $d['Images']['id'];
+				}
+			}		
+
+			echo $this->Html->css('../js/lightbox/jquery.lightbox-0.5.css');
+			echo $this->Html->script('lightbox/jquery.lightbox-0.5.min');
+
+			$a = "
+			$(document).ready(function(){
+				$('a.lightbox').lightBox();
+
+				$(document).on('lightbox_change_image', function(){
+					//$('#lightbox-container-image').width($('#lightbox-container-image').width() + 100);
+				});
+			});";
+
+			echo $this->Html->scriptblock($a);
+		}
+	}
+
+
+	lightbox($this, $user, $username);
+?>
+
+</div>
+

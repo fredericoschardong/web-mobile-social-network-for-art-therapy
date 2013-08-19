@@ -1,0 +1,10 @@
+<script>
+$(document).ready(function(){
+	$('.success').text("<?php echo $message; ?>");
+	$('.success').animate({top:"0"}, 2000);
+
+	setTimeout(function() {
+		$('.success').animate({top: -$(this).outerHeight()}, 500);
+	}, 2000);
+});
+</script>
